@@ -1,0 +1,95 @@
+﻿<Window x:Class="MVP_Frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVP_Frontend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="684*"/>
+            <ColumnDefinition Width="1507*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="954*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+                    Grid.ColumnSpan="2"
+                    Background="#0B959E">
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top"
+                    HorizontalAlignment="Center">
+            <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                <Button 
+                HorizontalAlignment="Center" 
+                Content="GO BACK" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" 
+                FontWeight="Bold"/>
+            </Border>
+            <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                <Button 
+                HorizontalAlignment="Center" 
+                Content="RESET" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" 
+                FontWeight="Bold"/>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="0"
+                    Grid.Row = "1"
+                    Orientation="Vertical"
+                    VerticalAlignment="Bottom"
+                    Margin="28">
+            <Border Width="355"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E">
+                <Button 
+                HorizontalAlignment="Center" 
+                Content="ADD TO MY DASHBOARD" 
+                FontSize="18"
+                Foreground="White"               
+                Height="50"
+                Width="300"
+                BorderBrush="#0B959E"
+                Background="#0B959E" 
+                FontWeight="Bold"/>
+            </Border>
+            <Border Width="355"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                <Button 
+                HorizontalAlignment="Center" 
+                Content="SAVE SELECTION" 
+                FontSize="18"
+                Foreground="White"               
+                Height="50"
+                Width="300"
+                BorderBrush="#0B959E"
+                Background="#0B959E" 
+                FontWeight="Bold"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
