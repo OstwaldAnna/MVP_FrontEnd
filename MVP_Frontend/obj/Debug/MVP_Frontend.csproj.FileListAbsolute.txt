@@ -1,0 +1,15 @@
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\bin\Debug\MVP_Frontend.exe.config
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\bin\Debug\MVP_Frontend.exe
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\bin\Debug\MVP_Frontend.pdb
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.csproj.AssemblyReference.cache
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MainWindow.g.cs
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\App.g.cs
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend_MarkupCompile.cache
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend_MarkupCompile.lref
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MainWindow.baml
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.g.resources
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.Properties.Resources.resources
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.csproj.GenerateResource.cache
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.exe
+C:\Users\Asya\Documents\GitHub\MVP_FrontEnd\MVP_Frontend\obj\Debug\MVP_Frontend.pdb

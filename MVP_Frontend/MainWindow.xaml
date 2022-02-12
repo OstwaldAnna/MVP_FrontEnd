@@ -1,0 +1,312 @@
+﻿<Window x:Class="MVP_Frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVP_Frontend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="684*"/>
+            <ColumnDefinition Width="1507*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="954*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+                    Grid.ColumnSpan="2">
+            <Image Source="/Resurs/Nav Bar.png" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top"
+                    HorizontalAlignment="Center">
+            <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                    <TextBlock TextWrapping="Wrap" Text="GO BACK"
+                               Width="60"
+                               Foreground="White"
+                               FontSize="18">
+                    </TextBlock>
+                </Button>
+            </Border>
+            <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                <Button 
+                HorizontalAlignment="Center" 
+                Content="RESET" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" />
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="0"
+                    Grid.Row = "1"
+                    Orientation="Vertical"
+                    VerticalAlignment="Bottom"
+                    Margin="28">
+            <Border Width="355"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E">
+                <Button 
+                HorizontalAlignment="Center" 
+                BorderBrush="#0B959E"
+                Background="#0B959E" >
+                    <TextBlock TextWrapping="Wrap" Text="ADD TO MY DASHBOARD"
+                               Width="105"
+                               Foreground="White"
+                               FontSize="18">
+                    </TextBlock>
+                </Button>
+            </Border>
+            <Border Width="355"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                <Button 
+                HorizontalAlignment="Center" 
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                    <TextBlock TextWrapping="Wrap" Text="SAVE SELECTION"
+                               Width="90"
+                               Foreground="White"
+                               FontSize="18">
+                    </TextBlock>
+                </Button>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Image Source="/Resurs/Rectangle 1.png" Height="672" Width="1007"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Image Source="/Resurs/image 2.png" Width="799" Height="572" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Expander Background="#F4F4F4" 
+                      Header="Choose from a previous selection" 
+                      ExpandDirection="Down"  
+                      Width="560"
+                      Margin="10"
+                      HorizontalAlignment="Center" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center" 
+                Content="Next" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" />
+                    </Border>
+                </StackPanel>
+            </Expander>
+            <Expander Background="#F4F4F4" 
+                      HorizontalAlignment="Left" 
+                      Header="Search or choose the X-Axis" 
+                      ExpandDirection="Down"  
+                      Width="560"
+                      Margin="10" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center" 
+                Content="Next" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" />
+                    </Border>
+                </StackPanel>
+            </Expander>
+            <Expander Background="#F4F4F4" 
+                      HorizontalAlignment="Left" 
+                      Header="Search or choose the X-Axis" 
+                      ExpandDirection="Down"  
+                      Width="560"
+                      Margin="10" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center" 
+                Content="Next" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" />
+                    </Border>
+                </StackPanel>
+            </Expander>
+            <Expander Background="#F4F4F4" 
+                      HorizontalAlignment="Left" 
+                      Header="Search or choose the X-Axis" 
+                      ExpandDirection="Down"  
+                      Width="560"
+                      Margin="10" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center" 
+                Content="Next" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" />
+                    </Border>
+                </StackPanel>
+            </Expander>
+            <Expander Background="#F4F4F4" 
+                      HorizontalAlignment="Left" 
+                      Header="Search or choose the chart type" 
+                      ExpandDirection="Down"  
+                      Width="560" 
+                      Margin="10" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center" 
+                Content="Next" 
+                FontSize="18"
+                Foreground="White"               
+                Height="40"
+                Width="150"
+                BorderBrush="#0B959E"
+                Background="#0B959E" />
+                    </Border>
+                </StackPanel>
+            </Expander>
+
+
+        </StackPanel>
+    </Grid>
+</Window>
