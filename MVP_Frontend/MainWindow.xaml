@@ -115,23 +115,10 @@
                       ExpandDirection="Down"    
                       FontSize="24"
                       Width="560"
-                      Margin="10" FontWeight="Bold">
+                      Margin="10" FontWeight="Bold"
+                      FlowDirection="RightToLeft">
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
-                    <Border Width="166"
-                    Height="68"
-                    CornerRadius="30"
-                    Background="#0B959E" 
-                    Margin="28">
-                        <Button 
-                HorizontalAlignment="Center"                
-                BorderBrush="#0B959E"
-                Background="#0B959E">
-                            <TextBlock Text="Previous"
-                               Foreground="White"
-                               FontSize="18"/>
-                        </Button>
-                    </Border>
                     <Border Width="166"
                     Height="68"
                     CornerRadius="30"
@@ -147,31 +134,31 @@
                 BorderBrush="#0B959E"
                 Background="#0B959E" />
                     </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
                 </StackPanel>
             </Expander>
             <Expander Background="#F4F4F4" 
-                      HorizontalAlignment="Left" 
                       Header="Search or choose the X-Axis" 
                       ExpandDirection="Down"  
                       FontSize="24"
                       Width="560"
-                      Margin="10" FontWeight="Bold">
+                      Margin="10" FontWeight="Bold"
+                       FlowDirection="RightToLeft">
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
-                    <Border Width="166"
-                    Height="68"
-                    CornerRadius="30"
-                    Background="#0B959E" 
-                    Margin="28">
-                        <Button 
-                HorizontalAlignment="Center"                
-                BorderBrush="#0B959E"
-                Background="#0B959E">
-                            <TextBlock Text="Previous"
-                               Foreground="White"
-                               FontSize="18"/>
-                        </Button>
-                    </Border>
                     <Border Width="166"
                     Height="68"
                     CornerRadius="30"
@@ -187,31 +174,31 @@
                 BorderBrush="#0B959E"
                 Background="#0B959E" />
                     </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
                 </StackPanel>
             </Expander>
             <Expander Background="#F4F4F4" 
-                      HorizontalAlignment="Left" 
                       Header="Search or choose the X-Axis" 
                      ExpandDirection="Down"    
                       FontSize="24"
                       Width="560"
-                      Margin="10" FontWeight="Bold">
+                      Margin="10" FontWeight="Bold"
+                       FlowDirection="RightToLeft">
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
-                    <Border Width="166"
-                    Height="68"
-                    CornerRadius="30"
-                    Background="#0B959E" 
-                    Margin="28">
-                        <Button 
-                HorizontalAlignment="Center"                
-                BorderBrush="#0B959E"
-                Background="#0B959E">
-                            <TextBlock Text="Previous"
-                               Foreground="White"
-                               FontSize="18"/>
-                        </Button>
-                    </Border>
                     <Border Width="166"
                     Height="68"
                     CornerRadius="30"
@@ -227,31 +214,31 @@
                 BorderBrush="#0B959E"
                 Background="#0B959E" />
                     </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
                 </StackPanel>
             </Expander>
             <Expander Background="#F4F4F4" 
-                      HorizontalAlignment="Left" 
                       Header="Search or choose the X-Axis" 
                       ExpandDirection="Down"    
                       FontSize="24"
                       Width="560"
-                      Margin="10" FontWeight="Bold">
+                      Margin="10" FontWeight="Bold"
+                       FlowDirection="RightToLeft">
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
-                    <Border Width="166"
-                    Height="68"
-                    CornerRadius="30"
-                    Background="#0B959E" 
-                    Margin="28">
-                        <Button 
-                HorizontalAlignment="Center"                
-                BorderBrush="#0B959E"
-                Background="#0B959E">
-                            <TextBlock Text="Previous"
-                               Foreground="White"
-                               FontSize="18"/>
-                        </Button>
-                    </Border>
                     <Border Width="166"
                     Height="68"
                     CornerRadius="30"
@@ -267,15 +254,29 @@
                 BorderBrush="#0B959E"
                 Background="#0B959E" />
                     </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
+                    </Border>
                 </StackPanel>
             </Expander>
             <Expander Background="#F4F4F4" 
-                      HorizontalAlignment="Left" 
                       Header="Search or choose the chart type" 
                       ExpandDirection="Down"    
                       FontSize="24"
                       Width="560"
-                      Margin="10" FontWeight="Bold">
+                      Margin="10" FontWeight="Bold"
+                      FlowDirection="RightToLeft">
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
 
@@ -285,20 +286,6 @@
                     Background="#0B959E" 
                     Margin="28">
                         <Button 
-                HorizontalAlignment="Center"                
-                BorderBrush="#0B959E"
-                Background="#0B959E">
-                            <TextBlock Text="Previous"
-                               Foreground="White"
-                               FontSize="18"/>
-                        </Button>
-                    </Border>
-                    <Border Width="166"
-                    Height="68"
-                    CornerRadius="30"
-                    Background="#0B959E" 
-                    Margin="28">
-                        <Button 
                 HorizontalAlignment="Center" 
                 Content="Next" 
                 FontSize="18"
@@ -307,6 +294,20 @@
                 Width="150"
                 BorderBrush="#0B959E"
                 Background="#0B959E" />
+                    </Border>
+                    <Border Width="166"
+                    Height="68"
+                    CornerRadius="30"
+                    Background="#0B959E" 
+                    Margin="28">
+                        <Button 
+                HorizontalAlignment="Center"                
+                BorderBrush="#0B959E"
+                Background="#0B959E">
+                            <TextBlock Text="Previous"
+                               Foreground="White"
+                               FontSize="18"/>
+                        </Button>
                     </Border>
                 </StackPanel>
             </Expander>
